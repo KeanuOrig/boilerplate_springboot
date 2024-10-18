@@ -1,0 +1,22 @@
+spring:
+    application:
+        name: demo
+    datasource:
+        url: jdbc:mysql://localhost:3306/spring_api
+        username: root
+        password:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+    jpa:
+        hibernate:
+            ddl-auto: none
+        show-sql: false
+    flyway:
+        enabled: false
+        url: jdbc:mysql://localhost:3306/spring_api
+        user: root
+        password:
+        locations: classpath:db/migration
+        baseline-on-migrate: true
+    jwt:
+        secret: "210d3d27605d0ee737952294265400a7cba109746afacd84b9cb0139bf6b7e3a"
+        expiration: 360000

@@ -1,0 +1,69 @@
+# Java
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Maven #
+/target/
+/pom.xml.tag
+/pom.xml.releaseBackup
+/pom.xml.versionsBackup
+/pom.xml.next
+release.properties
+
+# Gradle #
+.gradle
+/build/
+/!gradle-wrapper.jar
+.gradle/
+build/
+/out/
+/libs/
+/bin/
+
+# Eclipse #
+.project
+.classpath
+.settings/
+target/
+
+# IntelliJ IDEA #
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# VS Code #
+.vscode/
+
+# Logs #
+*.log
+logs/
+*.log.*
+*.log.*.*
+/demo/logs
+/demo/*.log
+
+# Spring Boot specific #
+/logs
+/spring.log
+
+# Ignore OS generated files #
+.DS_Store
+Thumbs.db
+
+# Environment variables #
+.env
+.env.*
+
+# Ignore temporary files #
+*.swp
+*~
+
+# Application-specific #
+/application.properties
+/application.yml
